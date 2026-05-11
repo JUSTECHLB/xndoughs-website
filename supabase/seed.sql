@@ -77,7 +77,7 @@ JOIN (VALUES
   ('croissants', 'Four Cheeses',        'Loaded with four melted cheeses',            '3.00', false, 2),
   ('croissants', 'Turkey & Cheese',     'Turkey and melted cheese',                   '4.00', false, 3),
   ('croissants', 'Spicy Feta',          'Spicy feta cheese filling',                  '4.00', false, 4),
-  ('croissants', 'Lotus Hershey's',     'Lotus spread with Hershey''s chocolate',     '4.00', false, 5),
+  ('croissants', 'Lotus Hershey''s',    'Lotus spread with Hershey''s chocolate',     '4.00', false, 5),
   ('croissants', 'Crème Brûlée',        'Crème brûlée custard filling',               '4.00', false, 6),
   ('croissants', 'Pistachio',           'Filled with pistachio cream',                '4.00', true,  7),
   ('croissants', 'Crookie',             'Cookie dough-stuffed croissant',             '5.00', true,  8),
