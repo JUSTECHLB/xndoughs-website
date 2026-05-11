@@ -2,7 +2,13 @@ import { createClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
-  const { name, message } = await request.json()
+  let body: unknown
+  try {
+    body = await request.json()
+  } catch {
+    return NextResponse.json({ error: 'Invalid request body.' }, { status: 400 })
+  }
+  const { name, message } = body as { name?: string; message?: string }
 
   if (!name?.trim() || !message?.trim()) {
     return NextResponse.json({ error: 'Name and message are required.' }, { status: 400 })
