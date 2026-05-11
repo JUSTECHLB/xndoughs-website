@@ -1,0 +1,66 @@
+'use client'
+import { useState } from 'react'
+import { toast } from 'sonner'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { Textarea } from '@/components/ui/textarea'
+
+export function ContactForm() {
+  const [name, setName] = useState('')
+  const [message, setMessage] = useState('')
+  const [loading, setLoading] = useState(false)
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    setLoading(true)
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, message }),
+    })
+    setLoading(false)
+    if (res.ok) {
+      toast.success("Message sent! We'll get back to you soon.")
+      setName('')
+      setMessage('')
+    } else {
+      toast.error('Failed to send. Try WhatsApp instead.')
+    }
+  }
+
+  return (
+    <form onSubmit={handleSubmit} className="space-y-5">
+      <div>
+        <Label htmlFor="name">Your Name</Label>
+        <Input
+          id="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Jane Doe"
+          required
+          className="mt-1.5"
+        />
+      </div>
+      <div>
+        <Label htmlFor="message">Message</Label>
+        <Textarea
+          id="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          placeholder="Tell us what you're looking for..."
+          rows={5}
+          required
+          className="mt-1.5 resize-none"
+        />
+      </div>
+      <Button
+        type="submit"
+        disabled={loading}
+        className="w-full bg-brand-pink hover:bg-brand-pink/90 text-white rounded-full"
+      >
+        {loading ? 'Sending...' : 'Send Message'}
+      </Button>
+    </form>
+  )
+}
