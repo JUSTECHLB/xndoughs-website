@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'XnDoughs — Handcrafted Desserts in Beirut',
-  description: 'Artisan donuts, cookies, cinnamon rolls and more. Made from scratch in Clemenceau, Beirut.',
+  title: 'XnDoughs | Handcrafted Desserts with Heart',
+  description: 'Artisan donuts, cookies, cinnamon rolls and more. Your Sweet Escape.',
   openGraph: {
     title: 'XnDoughs',
-    description: 'Handcrafted desserts made from scratch in Beirut.',
+    description: 'Your Sweet Escape.',
     images: ['/xndoughs-logo.png'],
   },
 }

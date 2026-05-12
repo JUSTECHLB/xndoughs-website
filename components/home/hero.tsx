@@ -52,10 +52,10 @@ export function Hero() {
           variants={stagger}
           initial="hidden"
           animate="visible"
-          className="max-w-2xl"
+          className="max-w-2xl text-center md:text-left mx-auto md:mx-0"
         >
           <motion.p variants={fadeUp} className="text-brand-pink font-bold tracking-[0.2em] uppercase text-xs mb-5">
-            Handcrafted in Beirut
+            Handcrafted with Heart
           </motion.p>
 
           <motion.h1
@@ -67,11 +67,11 @@ export function Hero() {
             Dough.
           </motion.h1>
 
-          <motion.p variants={fadeUp} className="mt-7 text-lg md:text-xl text-brand-dark/60 max-w-md leading-relaxed">
-            Donuts, cookies, cinnamon rolls, and more — all made from scratch at our Clemenceau kitchen.
+          <motion.p variants={fadeUp} className="mt-7 text-lg md:text-xl text-brand-dark/60 max-w-md leading-relaxed mx-auto md:mx-0">
+            Donuts, cookies, cinnamon rolls, and more. Your sweet escape, handcrafted with heart.
           </motion.p>
 
-          <motion.div variants={fadeUp} className="mt-10 flex flex-wrap gap-4">
+          <motion.div variants={fadeUp} className="mt-10 flex flex-wrap gap-4 justify-center md:justify-start">
             <Link
               href="/menu"
               className="bg-brand-pink text-white px-8 py-3.5 rounded-full font-semibold text-sm hover:bg-brand-pink/90 transition-all hover:shadow-lg"

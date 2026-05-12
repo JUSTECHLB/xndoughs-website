@@ -22,7 +22,7 @@ export function BrandTeaser() {
             No shortcuts.<br />Ever.
           </h2>
           <p className="mt-6 text-white/75 text-lg max-w-xl mx-auto leading-relaxed">
-            Every item is made from scratch in our Clemenceau kitchen. Real ingredients, real love, real flavor.
+            Real ingredients, real love, real flavor. Every item crafted with care in our Beirut kitchen.
           </p>
           <a
             href="https://wa.me/96178965285"

@@ -1,0 +1,1148 @@
+- generic [active] [ref=e1]:
+  - text: 
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link:
+        - /url: /
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - button " Call Waiter" [ref=e7] [cursor=pointer]:
+            - generic [ref=e9]: 
+            - text: Call Waiter
+        - listitem [ref=e10]:
+          - link " Register visit" [ref=e11] [cursor=pointer]:
+            - /url: https://rest.thrubits.com/register/visit/1452
+            - generic [ref=e13]: 
+            - text: Register visit
+        - listitem [ref=e14]:
+          - generic [ref=e15] [cursor=pointer]:
+            - generic [ref=e17]: 
+            - text: Cart
+        - text:   
+  - generic [ref=e18]:
+    - generic [ref=e20]:
+      - img [ref=e21]
+      - heading "Better From Scratch" [level=1] [ref=e22] [cursor=pointer]
+    - generic [ref=e23]:
+      - text:   
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: From My Kitchen To Yours
+        - paragraph [ref=e29]:
+          - generic [ref=e30]: 
+          - link "Clemenceau, Beirut" [ref=e31] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Clemenceau%2C+Beirut
+          - text: "|"
+          - generic [ref=e32]: 
+          - link "+961 78 965 285" [ref=e33] [cursor=pointer]:
+            - /url: tel:+961 78 965 285
+          - text: "|"
+          - link "" [ref=e34] [cursor=pointer]:
+            - /url: https://www.instagram.com/betterfromscratch/
+            - generic [ref=e35]: 
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - generic [ref=e40]:
+            - tab "All Categories All categories" [ref=e43] [cursor=pointer]:
+              - img "All Categories" [ref=e44]
+              - text: All categories
+            - tab "ramadan specials" [ref=e47] [cursor=pointer]: ramadan specials
+            - tab "Boxes Boxes" [ref=e50] [cursor=pointer]:
+              - img "Boxes" [ref=e51]
+              - text: Boxes
+            - tab "cookie box cookie box" [ref=e54] [cursor=pointer]:
+              - img "cookie box" [ref=e55]
+              - text: cookie box
+            - tab "Criossant Criossant" [ref=e58] [cursor=pointer]:
+              - img "Criossant" [ref=e59]
+              - text: Criossant
+            - tab "Cookies Cookies" [ref=e62] [cursor=pointer]:
+              - img "Cookies" [ref=e63]
+              - text: Cookies
+            - tab "VALENTINE" [ref=e66] [cursor=pointer]: VALENTINE
+            - tab "Cake pops Cake pops" [ref=e69] [cursor=pointer]:
+              - img "Cake pops" [ref=e70]
+              - text: Cake pops
+            - tab "Giant Cookies Giant Cookies" [ref=e73] [cursor=pointer]:
+              - img "Giant Cookies" [ref=e74]
+              - text: Giant Cookies
+            - tab "Brownies Brownies" [ref=e77] [cursor=pointer]:
+              - img "Brownies" [ref=e78]
+              - text: Brownies
+            - tab "Cinnamon rolls Cinnamon rolls" [ref=e81] [cursor=pointer]:
+              - img "Cinnamon rolls" [ref=e82]
+              - text: Cinnamon rolls
+            - tab "Cup Cakes Cup Cakes" [ref=e85] [cursor=pointer]:
+              - img "Cup Cakes" [ref=e86]
+              - text: Cup Cakes
+            - tab "Pretzels Pretzels" [ref=e89] [cursor=pointer]:
+              - img "Pretzels" [ref=e90]
+              - text: Pretzels
+            - tab "Breakables Breakables" [ref=e93] [cursor=pointer]:
+              - img "Breakables" [ref=e94]
+              - text: Breakables
+            - tab "Oreos Oreos" [ref=e97] [cursor=pointer]:
+              - img "Oreos" [ref=e98]
+              - text: Oreos
+            - tab "Macarons Macarons" [ref=e101] [cursor=pointer]:
+              - img "Macarons" [ref=e102]
+              - text: Macarons
+            - tab "christmas" [ref=e105] [cursor=pointer]: christmas
+            - tab "Dessert Box Dessert Box" [ref=e108] [cursor=pointer]:
+              - img "Dessert Box" [ref=e109]
+              - text: Dessert Box
+            - tab "Mini Birthday Topper Mini Birthday Topper" [ref=e112] [cursor=pointer]:
+              - img "Mini Birthday Topper" [ref=e113]
+              - text: Mini Birthday Topper
+            - tab "Edible Cookie Box Edible Cookie Box" [ref=e116] [cursor=pointer]:
+              - img "Edible Cookie Box" [ref=e117]
+              - text: Edible Cookie Box
+            - tab "Rice Krispies Rice Krispies" [ref=e120] [cursor=pointer]:
+              - img "Rice Krispies" [ref=e121]
+              - text: Rice Krispies
+            - tab "Candy Box Candy Box" [ref=e124] [cursor=pointer]:
+              - img "Candy Box" [ref=e125]
+              - text: Candy Box
+            - tab "english cakes" [ref=e128] [cursor=pointer]: english cakes
+          - generic:
+            - button "Previous" [ref=e129] [cursor=pointer]:
+              - generic "Previous" [ref=e130]: ‹
+            - button "Next" [ref=e131] [cursor=pointer]:
+              - generic "Next" [ref=e132]: ›
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135] [cursor=pointer]:
+              - heading "ramadan specials" [level=1] [ref=e137]
+              - generic [ref=e139]: 
+            - generic [ref=e142]:
+              - generic [ref=e144]:
+                - figure [ref=e145]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "CRUNCHY DREAM CAKE" [ref=e148] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $50.00
+              - generic [ref=e150]:
+                - figure [ref=e151]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "STRAWBERRY DUBAI CHOC. DREAM CAKE" [ref=e154] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $50.00
+              - generic [ref=e156]:
+                - figure [ref=e157]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "LOTUS DREAM CAKE" [ref=e160] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $50.00
+              - generic [ref=e162]:
+                - figure [ref=e163]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "EM ALI FEKHARA" [ref=e166] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+          - generic [ref=e167]:
+            - generic [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]:
+                - img "Boxes" [ref=e170]
+                - heading "Boxes" [level=1] [ref=e171]
+              - generic [ref=e173]: 
+            - generic [ref=e176]:
+              - generic [ref=e178]:
+                - figure [ref=e179]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "box of 6" [ref=e182] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: chocolate chip, nutella, snickers, mars, twix, oreo, red velvet, red velvet nutella, red velvet, oreo, m&m, bueno, lotus, chocolate chip with cake pop red velvet
+                - text: $17.50
+              - generic [ref=e184]:
+                - figure [ref=e185]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "box of 12" [ref=e188] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: chocolate chip, nutella, snickers, mars, twix, oreo, red velvet, red velvet nutella, red velvet, oreo, m&m, bueno, lotus, chocolate chip with cake pop red velvet
+                - text: $35.00
+              - generic [ref=e190]:
+                - link "box of 6 cinnamons" [ref=e193] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: og, nutella, lotus, redvelvet, oreo
+                - text: $20.00
+          - generic [ref=e194]:
+            - generic [ref=e195] [cursor=pointer]:
+              - generic [ref=e196]:
+                - img "cookie box" [ref=e197]
+                - heading "cookie box" [level=1] [ref=e198]
+              - generic [ref=e200]: 
+            - generic [ref=e203]:
+              - generic [ref=e205]:
+                - figure [ref=e206]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "pistachio osmallieh cookie box" [ref=e209] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e211]:
+                - figure [ref=e212]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "back to school box" [ref=e215] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $30.00
+              - generic [ref=e217]:
+                - figure [ref=e218]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "WINTER BOX" [ref=e221] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+          - generic [ref=e222]:
+            - generic [ref=e223] [cursor=pointer]:
+              - generic [ref=e224]:
+                - img "Criossant" [ref=e225]
+                - heading "Criossant" [level=1] [ref=e226]
+              - generic [ref=e228]: 
+            - generic [ref=e231]:
+              - generic [ref=e233]:
+                - figure [ref=e234]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "CHOCOLATE CRIOSSANT" [ref=e237] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.00
+              - generic [ref=e239]:
+                - figure [ref=e240]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "FOUR CHEESES" [ref=e243] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.00
+              - generic [ref=e245]:
+                - figure [ref=e246]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "TURKEY & CHEESE" [ref=e249] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.00
+              - generic [ref=e251]:
+                - figure [ref=e252]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "SPICY FETA" [ref=e255] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.00
+              - generic [ref=e257]:
+                - figure [ref=e258]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "LOTUS HERSHY'S CROISSANT" [ref=e261] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.00
+              - generic [ref=e263]:
+                - figure [ref=e264]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "CREME BRULEE CROISSANT" [ref=e267] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.00
+              - generic [ref=e269]:
+                - figure [ref=e270]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "PISTACHIO CROISSANT" [ref=e273] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.00
+              - generic [ref=e275]:
+                - figure [ref=e276]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "crookies croissant" [ref=e279] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e281]:
+                - figure [ref=e282]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "lotus crookie" [ref=e285] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e287]:
+                - figure [ref=e288]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "lotus crookie" [ref=e291] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+          - generic [ref=e292]:
+            - generic [ref=e293] [cursor=pointer]:
+              - generic [ref=e294]:
+                - img "Cookies" [ref=e295]
+                - heading "Cookies" [level=1] [ref=e296]
+              - generic [ref=e298]: 
+            - generic [ref=e301]:
+              - generic [ref=e303]:
+                - figure [ref=e304]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Chocolate chip" [ref=e307] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e309]:
+                - figure [ref=e310]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Nutella" [ref=e313] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e315]:
+                - figure [ref=e316]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "snickers" [ref=e319] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e321]:
+                - figure [ref=e322]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "mars" [ref=e325] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e327]:
+                - figure [ref=e328]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "twix" [ref=e331] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e333]:
+                - figure [ref=e334]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "oreo" [ref=e337] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e339]:
+                - figure [ref=e340]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "red velvet" [ref=e343] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e345]:
+                - figure [ref=e346]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "red velvet nutella" [ref=e349] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e351]:
+                - figure [ref=e352]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "half red velvet half chocolate chip" [ref=e355] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e357]:
+                - figure [ref=e358]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "m&m" [ref=e361] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e363]:
+                - figure [ref=e364]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "bueno" [ref=e367] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e369]:
+                - figure [ref=e370]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "lotus" [ref=e373] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e375]:
+                - figure [ref=e376]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "chocolate chip with cake pop red velvet" [ref=e379] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e381]:
+                - figure [ref=e382]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Newyorker" [ref=e385] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.50
+              - generic [ref=e387]:
+                - figure [ref=e388]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "mini cookies" [ref=e391] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $1.80
+              - generic [ref=e393]:
+                - figure [ref=e394]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Sugar cookies" [ref=e397] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: Starting
+                - text: $3.50
+              - generic [ref=e399]:
+                - figure [ref=e400]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "red velvet oreo" [ref=e403] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e405]:
+                - figure [ref=e406]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "white chocolate new yorker cookie" [ref=e409] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.50
+              - generic [ref=e411]:
+                - figure [ref=e412]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "double chocolate newyorker" [ref=e415] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.50
+              - generic [ref=e417]:
+                - figure [ref=e418]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "marshmallow" [ref=e421] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.50
+          - generic [ref=e422]:
+            - generic [ref=e423] [cursor=pointer]:
+              - heading "VALENTINE" [level=1] [ref=e425]
+              - generic [ref=e427]: 
+            - generic [ref=e430]:
+              - generic [ref=e432]:
+                - figure [ref=e433]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "MINI CAKE & CUPCAKE BOX4" [ref=e436] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e438]:
+                - figure [ref=e439]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "PIZZA COOKIE 35 CM" [ref=e442] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e444]:
+                - figure [ref=e445]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "PIZZA COOKIE 20 CM" [ref=e448] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $30.00
+              - generic [ref=e450]:
+                - figure [ref=e451]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "CALENDAR CAKE BOARD" [ref=e454] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e456]:
+                - figure [ref=e457]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "POPSICLES" [ref=e460] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e462]:
+                - figure [ref=e463]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "STRAWBERRY BOX" [ref=e466] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $20.00
+              - generic [ref=e468]:
+                - figure [ref=e469]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "NUTELLA BROWNIE" [ref=e472] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e474]:
+                - figure [ref=e475]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "NUTELLA BROWNIE 18X18" [ref=e478] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $20.00
+              - generic [ref=e480]:
+                - figure [ref=e481]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "HEART PUZZLE COOKIE KIT" [ref=e484] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $25.00
+              - generic [ref=e486]:
+                - figure [ref=e487]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "STRAWBERRY HEART FOAM" [ref=e490] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $50.00
+              - generic [ref=e492]:
+                - figure [ref=e493]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "SMALL BREAKABLE" [ref=e496] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e498]:
+                - figure [ref=e499]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "LARGE BREAKABLE" [ref=e502] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $45.00
+              - generic [ref=e504]:
+                - figure [ref=e505]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "MINI CAKE" [ref=e508] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $25.00
+              - generic [ref=e510]:
+                - figure [ref=e511]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "SUGAR COOKIE BOX 2P" [ref=e514] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $10.00
+              - generic [ref=e516]:
+                - figure [ref=e517]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "SUGAR COOKIE BOX 3P" [ref=e520] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $13.00
+              - generic [ref=e522]:
+                - figure [ref=e523]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "POPSICLE BOX 5P" [ref=e526] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $23.00
+              - generic [ref=e528]:
+                - figure [ref=e529]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "LARGE TREAT BOX" [ref=e532] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e534]:
+                - figure [ref=e535]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "OREO BOX" [ref=e538] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $15.00
+              - generic [ref=e540]:
+                - figure [ref=e541]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "ONE POPSICLE BOX" [ref=e544] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.50
+              - generic [ref=e546]:
+                - figure [ref=e547]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "I LOVE U STRAWBERRY BOX" [ref=e550] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $7.00
+              - generic [ref=e552]:
+                - figure [ref=e553]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "BOX OF 4 CUPCAKES" [ref=e556] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $18.00
+          - generic [ref=e557]:
+            - generic [ref=e558] [cursor=pointer]:
+              - generic [ref=e559]:
+                - img "Cake pops" [ref=e560]
+                - heading "Cake pops" [level=1] [ref=e561]
+              - generic [ref=e563]: 
+            - generic [ref=e566]:
+              - generic [ref=e568]:
+                - figure [ref=e569]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Vanilla" [ref=e572] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $2.50
+              - generic [ref=e574]:
+                - figure [ref=e575]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Chocolate" [ref=e578] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $2.50
+              - generic [ref=e580]:
+                - figure [ref=e581]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Red velvet" [ref=e584] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $2.50
+              - generic [ref=e586]:
+                - figure [ref=e587]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Cookie dough" [ref=e590] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $2.50
+              - generic [ref=e592]:
+                - figure [ref=e593]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Cookie dough nutella" [ref=e596] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $2.85
+              - generic [ref=e598]:
+                - figure [ref=e599]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Red velvet nutella" [ref=e602] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $2.85
+              - generic [ref=e604]:
+                - figure [ref=e605]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Rainbow" [ref=e608] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $2.85
+          - generic [ref=e609]:
+            - generic [ref=e610] [cursor=pointer]:
+              - generic [ref=e611]:
+                - img "Giant Cookies" [ref=e612]
+                - heading "Giant Cookies" [level=1] [ref=e613]
+              - generic [ref=e615]: 
+            - generic [ref=e618]:
+              - generic [ref=e620]:
+                - link "Giant sugar cookie letter" [ref=e623] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $38.00
+              - generic [ref=e625]:
+                - figure [ref=e626]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Giant cookie 34 cm with writing" [ref=e629] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e631]:
+                - figure [ref=e632]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "With toppings" [ref=e635] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e637]:
+                - link "Filling extra" [ref=e640] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $8.00
+              - generic [ref=e642]:
+                - figure [ref=e643]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Giant cookie 20 cm with writing" [ref=e646] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $25.00
+              - generic [ref=e648]:
+                - figure [ref=e649]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "With toppings" [ref=e652] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $30.00
+              - generic [ref=e654]:
+                - figure [ref=e655]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Giant heart cookie writing" [ref=e658] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $30.00
+          - generic [ref=e659]:
+            - generic [ref=e660] [cursor=pointer]:
+              - generic [ref=e661]:
+                - img "Brownies" [ref=e662]
+                - heading "Brownies" [level=1] [ref=e663]
+              - generic [ref=e665]: 
+            - generic [ref=e668]:
+              - generic [ref=e670]:
+                - figure [ref=e671]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Nutella brownie" [ref=e674] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e676]:
+                - figure [ref=e677]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Caramel twix" [ref=e680] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e682]:
+                - figure [ref=e683]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Brookie" [ref=e686] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.50
+              - generic [ref=e688]:
+                - figure [ref=e689]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "lotus blondie" [ref=e692] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+          - generic [ref=e693]:
+            - generic [ref=e694] [cursor=pointer]:
+              - generic [ref=e695]:
+                - img "Cinnamon rolls" [ref=e696]
+                - heading "Cinnamon rolls" [level=1] [ref=e697]
+              - generic [ref=e699]: 
+            - generic [ref=e702]:
+              - generic [ref=e704]:
+                - figure [ref=e705]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "og" [ref=e708] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e710]:
+                - figure [ref=e711]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "nutella" [ref=e714] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e716]:
+                - figure [ref=e717]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "lotus" [ref=e720] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e722]:
+                - figure [ref=e723]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "oreo" [ref=e726] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e728]:
+                - figure [ref=e729]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "red velvet" [ref=e732] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e734]:
+                - figure [ref=e735]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "pistachio" [ref=e738] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $6.00
+          - generic [ref=e739]:
+            - generic [ref=e740] [cursor=pointer]:
+              - generic [ref=e741]:
+                - img "Cup Cakes" [ref=e742]
+                - heading "Cup Cakes" [level=1] [ref=e743]
+              - generic [ref=e745]: 
+            - generic [ref=e748]:
+              - generic [ref=e750]:
+                - figure [ref=e751]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Cupcakes" [ref=e754] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.00
+              - generic [ref=e756]:
+                - figure [ref=e757]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Sugar piece" [ref=e760] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $0.50
+              - generic [ref=e762]:
+                - figure [ref=e763]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Customized design starts at" [ref=e766] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: starting
+                - text: $3.00
+              - generic [ref=e768]:
+                - figure [ref=e769]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "cupcakes with sugar piece" [ref=e772] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.50
+              - generic [ref=e774]:
+                - figure [ref=e775]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "One cupcake box" [ref=e778] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e780]:
+                - figure [ref=e781]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "cookie dough layered chocolate" [ref=e784] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.00
+              - generic [ref=e786]:
+                - figure [ref=e787]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "red velvet layered cupcake" [ref=e790] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.00
+              - generic [ref=e792]:
+                - figure [ref=e793]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "red velvet oreo cupcakee" [ref=e796] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.00
+              - generic [ref=e798]:
+                - figure [ref=e799]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "vanilla layerd cupcakes" [ref=e802] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.00
+          - generic [ref=e803]:
+            - generic [ref=e804] [cursor=pointer]:
+              - generic [ref=e805]:
+                - img "Breakables" [ref=e806]
+                - heading "Breakables" [level=1] [ref=e807]
+              - generic [ref=e809]: 
+            - generic [ref=e812]:
+              - generic [ref=e814]:
+                - figure [ref=e815]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Small heart" [ref=e818] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e820]:
+                - figure [ref=e821]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Large heart" [ref=e824] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $45.00
+              - generic [ref=e826]:
+                - figure [ref=e827]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Graduation cap" [ref=e830] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e832]:
+                - figure [ref=e833]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "cookie dough nutella heart" [ref=e836] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e838]:
+                - link "Nutella jar with candy" [ref=e841] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $80.00
+              - generic [ref=e843]:
+                - link "Birthday ball" [ref=e846] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $30.00
+              - generic [ref=e848]:
+                - link "Cookie dough ball" [ref=e851] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e853]:
+                - link "Champagne bottle" [ref=e856] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $30.00
+              - generic [ref=e858]:
+                - figure [ref=e859]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Giant egg" [ref=e862] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $120.00
+              - generic [ref=e864]:
+                - figure [ref=e865]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Donut" [ref=e868] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+              - generic [ref=e870]:
+                - link "Diamond" [ref=e873] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $40.00
+          - generic [ref=e874]:
+            - generic [ref=e875] [cursor=pointer]:
+              - generic [ref=e876]:
+                - img "Oreos" [ref=e877]
+                - heading "Oreos" [level=1] [ref=e878]
+              - generic [ref=e880]: 
+            - generic [ref=e883]:
+              - generic [ref=e885]:
+                - figure [ref=e886]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Oreos dipped in chocolate" [ref=e889] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $1.00
+              - generic [ref=e891]:
+                - figure [ref=e892]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Oreo box" [ref=e895] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $10.00
+              - generic [ref=e897]:
+                - figure [ref=e898]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "cookiedough oreo nutella" [ref=e901] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $1.20
+          - generic [ref=e902]:
+            - generic [ref=e903] [cursor=pointer]:
+              - heading "christmas" [level=1] [ref=e905]
+              - generic [ref=e907]: 
+            - generic [ref=e910]:
+              - generic [ref=e912]:
+                - figure [ref=e913]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "ginger bread house kit" [ref=e916] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e918]:
+                - figure [ref=e919]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "sugar cookie kit" [ref=e922] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $18.00
+              - generic [ref=e924]:
+                - figure [ref=e925]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "popsicles" [ref=e928] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.00
+              - generic [ref=e930]:
+                - figure [ref=e931]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "large treat box" [ref=e934] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e936]:
+                - figure [ref=e937]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "hot chocolate stirrers" [ref=e940] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $8.00
+              - generic [ref=e942]:
+                - figure [ref=e943]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "sugar cookie" [ref=e946] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.00
+              - generic [ref=e948]:
+                - figure [ref=e949]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Christmas brownie" [ref=e952] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $5.00
+              - generic [ref=e954]:
+                - figure [ref=e955]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "ginger bread diy kit" [ref=e958] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $18.00
+              - generic [ref=e960]:
+                - figure [ref=e961]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "chocolate spoons" [ref=e964] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $12.00
+              - generic [ref=e966]:
+                - figure [ref=e967]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "chocolate house" [ref=e970] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+              - generic [ref=e972]:
+                - figure [ref=e973]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "all chocolate calendar" [ref=e976] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $15.00
+              - generic [ref=e978]:
+                - figure [ref=e979]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "all chocolate calendar" [ref=e982] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $15.00
+              - generic [ref=e984]:
+                - figure [ref=e985]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "all candy calendar" [ref=e988] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $15.00
+              - generic [ref=e990]:
+                - figure [ref=e991]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "half chocolate half gummies calendar" [ref=e994] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $15.00
+              - generic [ref=e996]:
+                - figure [ref=e997]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "small treat box" [ref=e1000] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $22.00
+              - generic [ref=e1002]:
+                - figure [ref=e1003]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "make your own ornament cake" [ref=e1006] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $35.00
+          - generic [ref=e1007]:
+            - generic [ref=e1008] [cursor=pointer]:
+              - generic [ref=e1009]:
+                - img "Dessert Box" [ref=e1010]
+                - heading "Dessert Box" [level=1] [ref=e1011]
+              - generic [ref=e1013]: 
+            - generic [ref=e1018]:
+              - figure [ref=e1019]:
+                - link:
+                  - /url: javascript:void(0)
+              - link "Dessert boxes" [ref=e1022] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: $40.00
+          - generic [ref=e1023]:
+            - generic [ref=e1024] [cursor=pointer]:
+              - generic [ref=e1025]:
+                - img "Mini Birthday Topper" [ref=e1026]
+                - heading "Mini Birthday Topper" [level=1] [ref=e1027]
+              - generic [ref=e1029]: 
+            - generic [ref=e1032]:
+              - generic [ref=e1034]:
+                - figure [ref=e1035]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Mini birthday topper" [ref=e1038] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $1.10
+              - generic [ref=e1040]:
+                - figure [ref=e1041]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Sugar piece" [ref=e1044] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $0.30
+          - generic [ref=e1045]:
+            - generic [ref=e1046] [cursor=pointer]:
+              - generic [ref=e1047]:
+                - img "Edible Cookie Box" [ref=e1048]
+                - heading "Edible Cookie Box" [level=1] [ref=e1049]
+              - generic [ref=e1051]: 
+            - generic [ref=e1056]:
+              - figure [ref=e1057]:
+                - link:
+                  - /url: javascript:void(0)
+              - link "Edible cookie box" [ref=e1060] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: $71.40
+          - generic [ref=e1061]:
+            - generic [ref=e1062] [cursor=pointer]:
+              - generic [ref=e1063]:
+                - img "Rice Krispies" [ref=e1064]
+                - heading "Rice Krispies" [level=1] [ref=e1065]
+              - generic [ref=e1067]: 
+            - generic [ref=e1070]:
+              - generic [ref=e1072]:
+                - figure [ref=e1073]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Rice krispies" [ref=e1076] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $3.20
+              - generic [ref=e1078]:
+                - figure [ref=e1079]:
+                  - link:
+                    - /url: javascript:void(0)
+                - link "Fruity pebble Rice Krispies" [ref=e1082] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                - text: $4.30
+          - generic [ref=e1083]:
+            - generic [ref=e1084] [cursor=pointer]:
+              - generic [ref=e1085]:
+                - img "Candy Box" [ref=e1086]
+                - heading "Candy Box" [level=1] [ref=e1087]
+              - generic [ref=e1089]: 
+            - generic [ref=e1094]:
+              - figure [ref=e1095]:
+                - link:
+                  - /url: javascript:void(0)
+              - link "Candy box" [ref=e1098] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - text: $7.10
+      - generic [ref=e1100]: 
+    - link "" [ref=e1101] [cursor=pointer]:
+      - /url: https://wa.me/+96178965285
+      - generic [ref=e1102]: 
+    - contentinfo [ref=e1103]:
+      - generic [ref=e1105]:
+        - generic [ref=e1107]:
+          - text: © 2020
+          - link "Restbits | Digital Menu Lebanon | QR Code Lebanon| منيو الكتروني لبنان | Thrubits" [ref=e1108] [cursor=pointer]:
+            - /url: ""
+          - text: .
+        - list [ref=e1110]:
+          - listitem [ref=e1111]:
+            - link "Register your restaurant" [ref=e1112] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register

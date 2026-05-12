@@ -1,0 +1,372 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link "Logo" [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=e5]
+        - generic [ref=e6]:
+          - text: 
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link "Product" [ref=e9] [cursor=pointer]:
+                - /url: "#product"
+            - listitem [ref=e10]:
+              - link "Pricing" [ref=e11] [cursor=pointer]:
+                - /url: "#pricing"
+            - listitem [ref=e12]:
+              - link "Testimonials" [ref=e13] [cursor=pointer]:
+                - /url: "#testimonials"
+            - listitem [ref=e14]:
+              - link "Demo" [ref=e15] [cursor=pointer]:
+                - /url: "#demo"
+            - text:  
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - link "Login" [ref=e18] [cursor=pointer]:
+              - /url: /login
+            - link "Register" [ref=e19] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register
+          - generic [ref=e20]:
+            - link "" [ref=e21] [cursor=pointer]:
+              - /url: https://www.facebook.com/thrubits
+              - generic [ref=e22]: 
+            - link "" [ref=e23] [cursor=pointer]:
+              - /url: https://www.instagram.com/thrubits/
+              - generic [ref=e24]: 
+        - text: 
+  - main [ref=e25]:
+    - img "logo" [ref=e29]
+    - generic [ref=e34]:
+      - text: 
+      - heading "Start Your Digital Menu Today" [level=1] [ref=e35]
+      - text: 
+      - paragraph [ref=e36]: Easily create a dynamic digital menu for your restaurant or bar and enhance customer engagement like never before.
+      - text: 
+      - paragraph:
+        - strong
+      - generic [ref=e38]:
+        - textbox "Restaurant or bar name" [ref=e39]
+        - textbox "Your email" [ref=e40]
+        - textbox "Phone" [ref=e41]
+        - button "Join now" [ref=e42] [cursor=pointer]
+    - generic [ref=e45]:
+      - generic [ref=e47]:
+        - text: 
+        - heading "The Ultimate All-in-One QR Digital Menu Platform" [level=2] [ref=e48]
+        - text: 
+        - paragraph [ref=e49]: Restbits combines QR code generation and digital menu design in one platform, making creating and managing both easy.
+        - text: 
+        - paragraph [ref=e50]:
+          - strong [ref=e51]: .
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - img "image" [ref=e56]
+          - generic [ref=e57]:
+            - text: 
+            - heading "Create a Digital Menu" [level=3] [ref=e58]
+            - text: 
+            - paragraph [ref=e59]: Create, design, and manage your menu directly on our platform. Make updates anytime with just a few clicks! Quick and easy
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - generic [ref=e63]: 
+                - text: 
+                - generic [ref=e64]: Real-time changes
+              - listitem [ref=e65]:
+                - generic [ref=e67]: 
+                - text: 
+                - generic [ref=e68]: Organize into categories
+              - listitem [ref=e69]:
+                - generic [ref=e71]: 
+                - text: 
+                - generic [ref=e72]: Extras and items variants
+            - link "Experience it" [ref=e73] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register
+        - generic [ref=e75]:
+          - img "image" [ref=e77]
+          - generic [ref=e78]:
+            - text: 
+            - heading "Create QR" [level=3] [ref=e79]
+            - text: 
+            - paragraph [ref=e80]: Choose from 8 unique designs with unlimited color options. Customize your QR code and flyer style to match your brand perfectly
+            - list [ref=e81]:
+              - listitem [ref=e82]:
+                - generic [ref=e84]: 
+                - text: 
+                - generic [ref=e85]: Beautiful QR Styles
+              - listitem [ref=e86]:
+                - generic [ref=e88]: 
+                - text: 
+                - generic [ref=e89]: Pick QR color
+              - listitem [ref=e90]:
+                - generic [ref=e92]: 
+                - text: 
+                - generic [ref=e93]: Print templates for download
+            - link "Design it" [ref=e94] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register
+        - generic [ref=e96]:
+          - img "image" [ref=e98]
+          - generic [ref=e99]:
+            - text: 
+            - heading "Go Digital" [level=3] [ref=e100]
+            - text: 
+            - paragraph [ref=e101]: Your visitors can now instantly access your menu by simply scanning with their smartphone. It's fast, convenient, and efficient.
+            - list [ref=e102]:
+              - listitem [ref=e103]:
+                - generic [ref=e105]: 
+                - text: 
+                - generic [ref=e106]: No mobile app required
+              - listitem [ref=e107]:
+                - generic [ref=e109]: 
+                - text: 
+                - generic [ref=e110]: Superfast online menu - PWA
+              - listitem [ref=e111]:
+                - generic [ref=e113]: 
+                - text: 
+                - generic [ref=e114]: View analytics
+            - link "Go Mobile" [ref=e115] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register
+        - generic [ref=e117]:
+          - img "image" [ref=e119]
+          - generic [ref=e120]:
+            - text: 
+            - heading "Accept Local Orders Instantly" [level=3] [ref=e121]
+            - text: 
+            - paragraph [ref=e122]: Let your customers place orders directly from their phones, making the dining experience faster and more convenient.
+            - list [ref=e123]:
+              - listitem [ref=e124]:
+                - generic [ref=e126]: 
+                - text: 
+                - generic [ref=e127]: Real-time sound notifications
+              - listitem [ref=e128]:
+                - generic [ref=e130]: 
+                - text: 
+                - generic [ref=e131]: Continues orders
+              - listitem [ref=e132]:
+                - generic [ref=e134]: 
+                - text: 
+                - generic [ref=e135]: Unlimited options, variants, and extras
+            - link "Try it" [ref=e136] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register
+        - generic [ref=e138]:
+          - img "image" [ref=e140]
+          - generic [ref=e141]:
+            - text: 
+            - heading "Accept payments" [level=3] [ref=e142]
+            - text: 
+            - paragraph [ref=e143]: Allow your customers to pay for their orders directly using their credit or debit cards, ensuring a smooth transaction process.
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - generic [ref=e147]: 
+                - text: 
+                - generic [ref=e148]: Accept any Credit and Debit card
+              - listitem [ref=e149]:
+                - generic [ref=e151]: 
+                - text: 
+                - generic [ref=e152]: Get paid immediately via Stripe Connect
+              - listitem [ref=e153]:
+                - generic [ref=e155]: 
+                - text: 
+                - generic [ref=e156]: Secure online payments
+            - link "Accept contactless payments" [ref=e157] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register
+        - generic [ref=e159]:
+          - img "image" [ref=e161]
+          - generic [ref=e162]:
+            - text: 
+            - heading "Customer Log" [level=3] [ref=e163]
+            - text: 
+            - paragraph [ref=e164]: Many countries require restaurants to maintain a customer log for safety and legal purposes.
+            - list [ref=e165]:
+              - listitem [ref=e166]:
+                - generic [ref=e168]: 
+                - text: 
+                - generic [ref=e169]: Customers can register them selfs
+              - listitem [ref=e170]:
+                - generic [ref=e172]: 
+                - text: 
+                - generic [ref=e173]: Manage the visits on your own
+              - listitem [ref=e174]:
+                - generic [ref=e176]: 
+                - text: 
+                - generic [ref=e177]: Powerful export / report functionality
+            - link "Keep it safe" [ref=e178] [cursor=pointer]:
+              - /url: https://rest.thrubits.com/new/restaurant/register
+    - generic [ref=e180]:
+      - generic [ref=e182]:
+        - text: 
+        - heading "Subscription Pricing" [level=1] [ref=e183]
+        - text: 
+        - paragraph [ref=e184]: Start free and fell in love in our pro features
+      - generic [ref=e185]:
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - generic [ref=e190]: USD
+              - generic [ref=e191]: "40"
+              - generic [ref=e192]: /year
+            - heading "Basic" [level=4] [ref=e193]
+            - paragraph [ref=e194]: If you run a small restaurant or bar, or just need the basics, this plan is great.
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - generic [ref=e199]: 
+              - text: Full access to QR tool
+            - listitem [ref=e200]:
+              - generic [ref=e202]: 
+              - text: Access to the menu creation tool
+            - listitem [ref=e203]:
+              - generic [ref=e205]: 
+              - text: Unlimited views
+            - listitem [ref=e206]:
+              - generic [ref=e208]: 
+              - text: Unlimited items in the menu
+            - listitem [ref=e209]:
+              - generic [ref=e211]: 
+              - text: Community support
+          - link "Start with Basic " [ref=e213] [cursor=pointer]:
+            - /url: https://rest.thrubits.com/new/restaurant/register
+            - text: Start with Basic
+            - generic [ref=e215]: 
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - generic [ref=e220]: USD
+              - generic [ref=e221]: "45"
+              - generic [ref=e222]: /year
+            - heading "Premium" [level=4] [ref=e223]
+            - paragraph [ref=e224]: Accept orders direclty from your customer mobile phone
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - generic [ref=e229]: 
+              - text: Accept Orders
+            - listitem [ref=e230]:
+              - generic [ref=e232]: 
+              - text: Manage order
+            - listitem [ref=e233]:
+              - generic [ref=e235]: 
+              - text: Full access to QR tool
+            - listitem [ref=e236]:
+              - generic [ref=e238]: 
+              - text: Access to the menu creation tool
+            - listitem [ref=e239]:
+              - generic [ref=e241]: 
+              - text: Unlimited views
+            - listitem [ref=e242]:
+              - generic [ref=e244]: 
+              - text: Unlimited items in the menu
+            - listitem [ref=e245]:
+              - generic [ref=e247]: 
+              - text: Dedicated Support
+          - link "Start with Premium " [ref=e249] [cursor=pointer]:
+            - /url: https://rest.thrubits.com/new/restaurant/register
+            - text: Start with Premium
+            - generic [ref=e251]: 
+    - generic [ref=e253]:
+      - generic [ref=e255]:
+        - text: 
+        - heading "Join the Ranks of Restaurants That Love Our QR Solutions" [level=1] [ref=e256]
+        - text: 
+        - paragraph [ref=e257]: Trusted by restaurants worldwide, our QR technology enhances the dining experience and streamlines operations.
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - generic [ref=e264]: 
+              - generic [ref=e266]: 
+              - generic [ref=e268]: 
+              - generic [ref=e270]: 
+              - generic [ref=e272]: 
+            - text: 
+            - paragraph [ref=e273]: "\"Easy to deal with, and The customer support team went above and beyond to assist me with my inquiries. Quick response, friendly service, and effective solutions.\""
+            - text: 
+            - paragraph [ref=e274]: "- - James Curran"
+            - text: 
+            - paragraph
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - generic [ref=e279]: 
+              - generic [ref=e281]: 
+              - generic [ref=e283]: 
+              - generic [ref=e285]: 
+              - generic [ref=e287]: 
+            - text: 
+            - paragraph [ref=e288]: "\"Thanks for your efforts and your special team and we want to inform you that we have a good experience with you thank about everything.\""
+            - text: 
+            - paragraph [ref=e289]: "- - Jad Mawassi"
+            - text: 
+            - paragraph [ref=e290]: Taslimat S.A.L Lokma casa
+        - generic [ref=e291]:
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - generic [ref=e296]: 
+              - generic [ref=e298]: 
+              - generic [ref=e300]: 
+              - generic [ref=e302]: 
+              - generic [ref=e304]: 
+            - text: 
+            - paragraph [ref=e305]: "\"I'm so glad to work with Thrubits very professional.\""
+            - text: 
+            - paragraph [ref=e306]: "- - Jhonny Khoury"
+            - text: 
+            - paragraph [ref=e307]: Lekmeit Beit
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - generic [ref=e312]: 
+              - generic [ref=e314]: 
+              - generic [ref=e316]: 
+              - generic [ref=e318]: 
+              - generic [ref=e320]: 
+            - text: 
+            - paragraph [ref=e321]: "\"A more than wonderful experience, with professional support.\""
+            - text: 
+            - paragraph [ref=e322]: "- - Khaled Hamoud"
+            - text: 
+            - paragraph
+    - generic [ref=e325]:
+      - generic [ref=e326]:
+        - text: 
+        - heading "See a demo online menu" [level=2] [ref=e327]
+        - text: 
+        - paragraph [ref=e328]: Just open the camera on your phone and scan the QR code below!
+        - link [ref=e329] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e330]
+      - link " Create a menu for you, now!" [ref=e332] [cursor=pointer]:
+        - /url: https://rest.thrubits.com/new/restaurant/register
+        - generic [ref=e334]: 
+        - text: Create a menu for you, now!
+    - generic [ref=e335] [cursor=pointer]:
+      - generic [ref=e336]: 
+      - text: 
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - link "Restbits" [ref=e342] [cursor=pointer]:
+            - /url: "#"
+            - heading "Restbits" [level=3] [ref=e343]
+          - paragraph [ref=e344]: Easily create a dynamic digital menu for your restaurant or bar and enhance customer engagement like never before.
+        - generic [ref=e345]:
+          - heading "Helpfull Links" [level=6] [ref=e346]
+          - list
+        - generic [ref=e347]:
+          - heading "My Account" [level=6] [ref=e348]
+          - list [ref=e349]:
+            - listitem [ref=e350]:
+              - link "Login" [ref=e351] [cursor=pointer]:
+                - /url: /login
+            - listitem [ref=e352]:
+              - link "Register" [ref=e353] [cursor=pointer]:
+                - /url: https://rest.thrubits.com/new/restaurant/register
+        - generic [ref=e354]:
+          - heading "Register" [level=6] [ref=e355]
+          - generic [ref=e356]:
+            - textbox "Restaurant or bar name" [ref=e357]
+            - textbox "Your email" [ref=e358]
+            - textbox "Phone" [ref=e359]
+            - button "Join now" [ref=e360] [cursor=pointer]
+      - separator [ref=e361]
+      - paragraph [ref=e365]:
+        - text: ©
+        - link "Restbits" [ref=e366] [cursor=pointer]:
+          - /url: https://rest.thrubits.com
+        - text: 2026. All rights reserved.

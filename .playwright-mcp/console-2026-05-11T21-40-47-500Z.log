@@ -1,0 +1,41 @@
+[    2999ms] [LOG] Download the Vue Devtools for a better development experience:
+https://github.com/vuejs/vue-devtools @ https://rest.thrubits.com/vendor/vue/vue.js:2
+[    3178ms] [LOG] Cart function called @ https://rest.thrubits.com/custom/js/cartFunctions.js?v=3.0:348
+[    3181ms] [ERROR] [Vue warn]: Cannot find element: #totalSubmit  @ https://rest.thrubits.com/vendor/vue/vue.js:2
+[    3190ms] [WARNING] jQuery.Deferred exception: $(...).resizable is not a function TypeError: $(...).resizable is not a function
+    at Object.modal (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:156:27)
+    at Object.document_ready (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:9:10)
+    at HTMLDocument.<anonymous> (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:231:113)
+    at j (https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:29999)
+    at k (https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:30313) undefined @ https://rest.thrubits.com/argonfront/js/core/jquery.min.js:1
+[    3190ms] [LOG] Pusher :  : ["State changed","initialized -> connecting"] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    3191ms] [LOG] Pusher :  : ["Connecting",{"transport":"ws","url":"wss://ws-ap2.pusher.com:443/app/e2ea13a5beda7495dae8?protocol=7&client=js&version=7.0.6&flash=false"}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    3320ms] TypeError: $(...).resizable is not a function
+    at Object.modal (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:156:27)
+    at Object.document_ready (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:9:10)
+    at HTMLDocument.<anonymous> (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:231:113)
+    at j (https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:29999)
+    at k (https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:30313)
+[    3341ms] [WARNING] Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading @ https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=AIzaSyBfH_K4YsRdfzrR5S8ZVZT5VS0_rvmYaNg&libraries=places&callback=js.initializeGoogle:1517
+[    3514ms] [LOG] delivery 0 @ https://rest.thrubits.com/custom/js/cartFunctions.js?v=3.0:28
+[    3515ms] [LOG] Price update @ https://rest.thrubits.com/custom/js/cartFunctions.js?v=3.0:53
+[    3898ms] [LOG] Pusher :  : ["State changed","connecting -> connected with new socket ID 83111.336789"] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    3898ms] [LOG] Pusher :  : ["Event sent",{"event":"pusher:subscribe","data":{"auth":"","channel":"user."}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    4001ms] [LOG] No initialOrderType @ https://rest.thrubits.com/custom/js/cartFunctions.js?v=3.0:280
+[    4049ms] [LOG] Pusher :  : ["Event recd",{"event":"pusher_internal:subscription_succeeded","channel":"user.","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    4049ms] [LOG] Pusher :  : ["No callbacks on user. for pusher:subscription_succeeded"] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    5959ms] [LOG] Laravel PWA: ServiceWorker registration successful with scope:  https://rest.thrubits.com/restaurant/ @ https://rest.thrubits.com/restaurant/better-from-scratch?utm_source=ig&utm_medium=social&utm_content=link_in_bio:88
+[    6321ms] [WARNING] As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommended over google.maps.Marker. While google.maps.Marker will continue to receive bug fixes for any major regressions, existing bugs in google.maps.Marker will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/deprecations for additional details and https://developers.google.com/maps/documentation/javascript/advanced-markers/migration for the migration guide. @ https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=AIzaSyBfH_K4YsRdfzrR5S8ZVZT5VS0_rvmYaNg&libraries=places&callback=js.initializeGoogle:1618
+[  124050ms] [LOG] Pusher :  : ["Event sent",{"event":"pusher:ping","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[  124202ms] [LOG] Pusher :  : ["Event recd",{"event":"pusher:pong","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[  127078ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://rest.thrubits.com/restaurant/better-from-scratch/items:0
+[  127372ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://rest.thrubits.com/get/restaurant/1452/items:0
+[  127663ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://rest.thrubits.com/api/items/1452:0
+[  128008ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://rest.thrubits.com/items/restaurant/1452:0
+[  128299ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://rest.thrubits.com/get/categories/1452:0
+[  244203ms] [LOG] Pusher :  : ["Event sent",{"event":"pusher:ping","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[  244358ms] [LOG] Pusher :  : ["Event recd",{"event":"pusher:pong","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[  364359ms] [LOG] Pusher :  : ["Event sent",{"event":"pusher:ping","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[  364518ms] [LOG] Pusher :  : ["Event recd",{"event":"pusher:pong","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[  484520ms] [LOG] Pusher :  : ["Event sent",{"event":"pusher:ping","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[  484672ms] [LOG] Pusher :  : ["Event recd",{"event":"pusher:pong","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7

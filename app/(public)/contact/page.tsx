@@ -1,9 +1,17 @@
 import { createClient } from '@/lib/supabase/server'
 import { ContactForm } from '@/components/contact/contact-form'
 
-export const metadata = { title: 'Contact — XnDoughs' }
+export const metadata = { title: 'Contact | XnDoughs' }
 
-interface ContactInfo { whatsapp: string; location: string; instagram: string }
+interface ContactInfo { whatsapp: string; instagram: string }
+
+const locations = [
+  { name: 'Clemenceau', phone: '71520891' },
+  { name: 'Jal El Dib',  phone: '70999158' },
+  { name: 'Kfarehbeb',   phone: '71012302' },
+  { name: 'Batroun',     phone: '71411085' },
+  { name: 'Bliss',       phone: null },
+]
 
 export default async function ContactPage() {
   const supabase = await createClient()
@@ -16,7 +24,6 @@ export default async function ContactPage() {
 
   const info = (data?.content as ContactInfo) ?? {
     whatsapp: '96178965285',
-    location: 'Clemenceau, Beirut, Lebanon',
     instagram: 'https://www.instagram.com/xndoughs/',
   }
 
@@ -29,7 +36,7 @@ export default async function ContactPage() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          <div className="space-y-8">
+          <div className="space-y-5">
             <a
               href={`https://wa.me/${info.whatsapp}`}
               target="_blank"
@@ -43,14 +50,6 @@ export default async function ContactPage() {
               </div>
             </a>
 
-            <div className="flex items-center gap-4 bg-white rounded-2xl p-6">
-              <div className="w-12 h-12 bg-brand-pink-light/30 rounded-full flex items-center justify-center text-2xl shrink-0">📍</div>
-              <div>
-                <p className="font-semibold text-brand-dark">Location</p>
-                <p className="text-brand-dark/50 text-sm">{info.location}</p>
-              </div>
-            </div>
-
             <a
               href={info.instagram}
               target="_blank"
@@ -63,10 +62,35 @@ export default async function ContactPage() {
                 <p className="text-brand-dark/50 text-sm">@xndoughs</p>
               </div>
             </a>
+
+            <div className="bg-white rounded-2xl p-6">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-12 h-12 bg-brand-pink-light/30 rounded-full flex items-center justify-center text-2xl shrink-0">📍</div>
+                <p className="font-semibold text-brand-dark">Our Locations</p>
+              </div>
+              <ul className="space-y-3.5 pl-1">
+                {locations.map(({ name, phone }) => (
+                  <li key={name} className="flex items-center justify-between">
+                    <span className="text-brand-dark/80 text-sm font-medium">{name}</span>
+                    {phone ? (
+                      <a
+                        href={`tel:+961${phone}`}
+                        className="text-brand-dark/40 text-sm hover:text-brand-pink transition-colors"
+                      >
+                        {phone}
+                      </a>
+                    ) : (
+                      <span className="text-brand-dark/30 text-xs italic">Coming soon</span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8">
-            <h2 className="font-display text-2xl font-bold text-brand-dark mb-6">Send a Message</h2>
+          <div className="bg-white rounded-2xl p-10">
+            <h2 className="font-display text-3xl font-bold text-brand-dark mb-2">Send a Message</h2>
+            <p className="text-brand-dark/40 text-sm mb-8">We usually reply within a few hours.</p>
             <ContactForm />
           </div>
         </div>

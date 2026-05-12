@@ -30,34 +30,34 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5">
-      <div>
-        <Label htmlFor="name">Your Name</Label>
+    <form onSubmit={handleSubmit} className="space-y-7">
+      <div className="space-y-2">
+        <Label htmlFor="name" className="text-sm font-semibold text-brand-dark">Your Name</Label>
         <Input
           id="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Jane Doe"
           required
-          className="mt-1.5"
+          className="h-12 px-4 text-sm rounded-xl border-brand-dark/10 focus:border-brand-pink"
         />
       </div>
-      <div>
-        <Label htmlFor="message">Message</Label>
+      <div className="space-y-2">
+        <Label htmlFor="message" className="text-sm font-semibold text-brand-dark">Message</Label>
         <Textarea
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Tell us what you're looking for..."
-          rows={5}
+          placeholder="Tell us what you're looking for: a custom order, a question, anything..."
+          rows={8}
           required
-          className="mt-1.5 resize-none"
+          className="px-4 py-3 text-sm rounded-xl border-brand-dark/10 focus:border-brand-pink resize-none leading-relaxed"
         />
       </div>
       <Button
         type="submit"
         disabled={loading}
-        className="w-full bg-brand-pink hover:bg-brand-pink/90 text-white rounded-full"
+        className="w-full h-12 bg-brand-pink hover:bg-brand-pink/90 text-white rounded-full font-semibold text-sm"
       >
         {loading ? 'Sending...' : 'Send Message'}
       </Button>

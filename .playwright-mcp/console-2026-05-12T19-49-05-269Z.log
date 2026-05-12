@@ -1,0 +1,26 @@
+[     967ms] [LOG] Laravel PWA: ServiceWorker registration successful with scope:  https://rest.thrubits.com/ @ https://rest.thrubits.com/offline:81
+[    1088ms] [LOG] Download the Vue Devtools for a better development experience:
+https://github.com/vuejs/vue-devtools @ https://rest.thrubits.com/vendor/vue/vue.js:2
+[    1093ms] [WARNING] jQuery.Deferred exception: $(...).resizable is not a function TypeError: $(...).resizable is not a function
+    at Object.modal (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:156:27)
+    at Object.document_ready (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:9:10)
+    at HTMLDocument.<anonymous> (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:231:113)
+    at j (https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:29999)
+    at https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:30313 undefined @ https://rest.thrubits.com/argonfront/js/core/jquery.min.js:1
+[    1095ms] [LOG] Pusher :  : ["State changed","initialized -> connecting"] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    1096ms] [LOG] Pusher :  : ["Connecting",{"transport":"ws","url":"wss://ws-ap2.pusher.com:443/app/e2ea13a5beda7495dae8?protocol=7&client=js&version=7.0.6&flash=false"}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    1097ms] TypeError: $(...).resizable is not a function
+    at Object.modal (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:156:27)
+    at Object.document_ready (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:9:10)
+    at HTMLDocument.<anonymous> (https://rest.thrubits.com/custom/js/js.js?id=2.4.2:231:113)
+    at j (https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:29999)
+    at https://rest.thrubits.com/argonfront/js/core/jquery.min.js:2:30313
+[    1406ms] [LOG] User id to save in OS:  @ https://rest.thrubits.com/custom/js/onesignal.js:21
+[    1571ms] [LOG] Pusher :  : ["State changed","connecting -> connected with new socket ID 83230.38498"] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    1571ms] [LOG] Pusher :  : ["Event sent",{"event":"pusher:subscribe","data":{"auth":"","channel":"user."}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    1585ms] Uncaught (in promise) p: OneSignal: This web push config can only be used on http://rest.thrubits.com. Your current origin is https://rest.thrubits.com.
+    at checkRestrictedOrigin (https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151103:0:242871)
+    at <anonymous> (https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151103:0:242430)
+    at r (https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151103:0:1057)
+[    1723ms] [LOG] Pusher :  : ["Event recd",{"event":"pusher_internal:subscription_succeeded","channel":"user.","data":{}}] @ https://js.pusher.com/7.0/pusher.min.js:7
+[    1724ms] [LOG] Pusher :  : ["No callbacks on user. for pusher:subscription_succeeded"] @ https://js.pusher.com/7.0/pusher.min.js:7

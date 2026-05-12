@@ -1,7 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { ValuesSection } from '@/components/about/values-section'
 
-export const metadata = { title: 'About — XnDoughs' }
+export const metadata = { title: 'About | XnDoughs' }
 
 interface HeroContent { headline: string; subtext: string }
 interface StoryContent { text: string }
@@ -18,7 +18,7 @@ export default async function AboutPage() {
   const storyRow = contents?.find((c) => c.section === 'story')
   const valuesRow = contents?.find((c) => c.section === 'values')
 
-  const hero = (heroRow?.content as HeroContent) ?? { headline: 'Handcrafted With Love', subtext: 'Born in Beirut, made from scratch.' }
+  const hero = (heroRow?.content as HeroContent) ?? { headline: 'Handcrafted With Love', subtext: 'Your Sweet Escape.' }
   const story = (storyRow?.content as StoryContent) ?? { text: '' }
   const values = (valuesRow?.content as ValueItem[]) ?? []
 
